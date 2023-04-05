@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+  }
+  
+  figure {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+  }
+  figcaption {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: black;
+    color: white;
+    padding: 8px 15px;
+  }
+
+  
+  .imgagen {
+    width: 540px;
+    height: 480px;
+    border: 3px solid black;
+    background: yellow;
+    object-fit: cover;
+    animation: ltr 3s alternate infinite;
+    border-radius: 5px;
+  }
+  
+  @keyframes ltr {
+    0% {
+      object-position: 0% 0%;
+    }
+    50% {
+      object-position: 20% 0%;
+    }
+    100% {
+      object-position: 100% 100%;
+    }
+  }

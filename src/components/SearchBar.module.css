@@ -1,0 +1,14 @@
+.submit{
+    width: 80px; 
+    background-color: #026773;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.error{border: 3px solid #fc0303;}

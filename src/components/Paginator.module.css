@@ -1,0 +1,31 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    font-size: 12px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 8px;
+    text-decoration: none;;
+  }
+  
+  .pagination a.active {
+    background-color: #026773;
+    color: white;
+    font-weight: 300;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #dddd}
+
+  .master {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
+
+
